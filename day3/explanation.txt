@@ -1,0 +1,9 @@
+Part 1:
+Use regex to find all instances of valid mul functions. 
+Add each multiplication to sum.
+
+Part 2:
+Find all instances of mul aswell as instances of do and don't.
+loop through this list.
+Continue as normal but only multiple if multiplying is enabled.
+disable multiply whenever we see a don't and enable it when we see a do.
