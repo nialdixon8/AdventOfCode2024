@@ -1,0 +1,9 @@
+Part 1:
+with each line split it between the spaces to get a list of numbers.
+Create two pointers going from either side (this may be overcomplicating the problem)
+while those pointers are not at the ends of the list check if the next value going forwards and backwards is valid
+if by the end either the numbers are increasing or decreasing by the at least 1 and by max 3 then add to total
+
+Part 2:
+Essentially the same except I loop through the code with every input variation to show a number being removed.
+

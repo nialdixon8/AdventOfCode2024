@@ -1,0 +1,9 @@
+Part 1:
+loop through each input line (This will likely be a common theme).
+Append each side to a seperate list and then sort the lists. This could perhaps be sorted in place but I have done it this way.
+Loop through the sorted lists accumulating all the differences.
+
+Part 2:
+Similar initial process but with no sorting.
+Loop through the left list. Multiply the count of every value of x in the rightList by x itself with x being the current leftList value.
+Accumulate all these values to get the total
